@@ -31,16 +31,5 @@ class Solution0004
         }
 
         return $m[floor(count($m) / 2)];
-
-//        $tot = 0;
-//        foreach ($m as $a) {
-//            $tot += $a;
-//        }
-//
-//        if ($tot === 0 && count($m) === 0) {
-//            return 0.0;
-//        }
-//
-//        return $tot / count($m);
     }
 }
